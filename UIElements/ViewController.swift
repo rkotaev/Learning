@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         slider.value = 1
         
         label.text = String(slider.value)
-        label.font = label.font.withSize(35)
+        label.font = label.font.withSize(18)
         label.textAlignment = .center
         label.numberOfLines = 2
         
@@ -114,7 +114,5 @@ class ViewController: UIViewController {
             switchLabel.text = "Скрыть все элементы"
         }
     }
-    
-    
-}
 
+}
